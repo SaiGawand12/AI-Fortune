@@ -107,7 +107,7 @@ export default function Home() {
 
   const shareRoast = () => {
     if (fortune) {
-      navigator.clipboard.writeText(`Got absolutely roasted by AI Fortune Teller! Here's what it said about me: "${fortune.text}" 🔮\n\nGet your own roast at https://ai-fortune-teller-roast.vercel.app (if you're brave enough to handle the truth) 😈`);
+      navigator.clipboard.writeText(`Got absolutely roasted by AI Fortune Teller! Here's what it said about me: "${fortune.text}" 🔮\n\nGet your own roast at https://fortuneai.netlify.app/ (if you're brave enough to handle the truth) 😈`);
       toast({
         title: "Roast Copied!",
         description: "Share your humiliation with friends!",
@@ -189,7 +189,7 @@ export default function Home() {
               <Github className="h-4 w-4" />
             </a>
             <a
-              href="https://twitter.com/saigawand"
+              href="https://x.com/saigawand90"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-colors"
